@@ -25,3 +25,4 @@ lib-cov
 build/Release
 node_modules
 npm-debug.log
+.coveralls.yml
