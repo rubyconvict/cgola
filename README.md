@@ -19,5 +19,5 @@ npm start
 ## Test
 
 ```
-npm run test-single-run
+npm test
 ```
