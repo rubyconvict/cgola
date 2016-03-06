@@ -1,0 +1,37 @@
+{
+  "name": "cgola",
+  "version": "1.0.0",
+  "description": "CGOLA",
+  "author": "Marcin Kalita",
+  "license": "MIT",
+  "main": "public/app/app.module.js",
+  "scripts": {
+    "start": "http-server . -a localhost -p 8000 -c-1 -o",
+    "test": "karma start karma.conf.js --single-run",
+    "test-continuous": "karma start karma.conf.js",
+    "test-coverage": "karma start karma.coverage.conf.js --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rubyconvict/cgola.git"
+  },
+  "homepage": "https://github.com/rubyconvict/cgola#readme",
+  "devDependencies": {
+    "bower": "1.7.7",
+    "eslint": "^2.3.0",
+    "eslint-config-angular": "^0.5.0",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-config-google": "^0.4.0",
+    "eslint-plugin-angular": "^1.0.0",
+    "eslint-plugin-jasmine": "^1.6.0",
+    "http-server": "0.9.0",
+    "jasmine-core": "2.4.1",
+    "karma": "0.13.21",
+    "karma-coverage": "^0.5.4",
+    "karma-jasmine": "^0.3.7",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-spec-reporter": "0.0.24",
+    "phantomjs-prebuilt": "2.1.4",
+    "preen": "^1.2.0"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "cgola",
+  "version": "1.0.0",
+  "homepage": "https://github.com/rubyconvict/cgola",
+  "authors": [
+    "Marcin Kalita <rubyconvict@gmail.com>"
+  ],
+  "description": "CGOLA",
+  "main": "public/app/app.module.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "1.5.0",
+    "angular-ui-router": "0.2.18",
+    "angular-mocks": "1.5.0",
+    "bootstrap": "3.3.6",
+    "lodash": "4.6.1"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css"
+      ]
+    },
+    "jquery": {
+      "ignore": true
+    }
+  },
+  "preen": {
+    "jquery": [
+      "dist/jquery.js"
+    ],
+    "angular": [
+      "angular.js"
+    ],
+    "angular-mocks": [
+      "angular-mocks.js"
+    ],
+    "bootstrap": [
+      "dist/fonts/*",
+      "dist/css/*",
+      "js/*"
+    ],
+    "angular-ui-router": [
+      "release/angular-ui-router.js"
+    ],
+    "lodash": [
+      "dist/lodash.js"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row game">
+    <div class="table-responsive">
+      <table class="table-center">
+        <tbody>
+          <tr ng-repeat="row in vm.game.board.squares track by $index">
+            <td ng-repeat="cell in row track by $index" class="cell" ng-class="{ alive: cell }"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row buttons">
+    <div class="form-group text-center">
+      <button class="btn btn-success" ng-disabled="vm.isStarted && !vm.isStopped" ng-click="vm.startNewGame()">Start New Game</button>
+      &nbsp;
+      <button class="btn btn-warning" ng-disabled="!vm.isStopped" ng-click="vm.resume()">Resume</button>
+      &nbsp;
+      <button class="btn btn-danger" ng-disabled="!vm.isStarted || vm.isStopped" ng-click="vm.stop()">Stop</button>
+    </div>
+  </div>
+</div>

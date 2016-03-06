@@ -1,0 +1,26 @@
+# emacs & vim
+*~
+\#*#
+.#*
+._*
+*.swp
+Session.vim
+
+.DS_Store
+.settings/
+
+/.loadpath
+*.project
+*.loadpath
+.idea
+.project
+.externalToolBuilders
+
+*.log
+*.pid
+*.seed
+lib-cov
+/coverage
+build/Release
+node_modules
+npm-debug.log

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head >
+    <meta charset="UTF-8">
+    <title>CGOLA</title>
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/public/app/cgolaGame/styles/cgolaGame.css"/>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <base href="/">
+  </head>
+  <body ng-app="app">
+
+    <div ui-view></div>
+
+    <script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="/bower_components/lodash/dist/lodash.js"></script>
+
+    <script src="/public/app/app.module.js"></script>
+
+    <script src="/public/app/common/common.module.js"></script>
+    <script src="/public/app/common/common.constants.js"></script>
+
+    <script src="/public/app/router/router.module.js"></script>
+    <script src="/public/app/router/routerHelper.js"></script>
+
+    <script src="/public/app/cgolaGame/cgolaGame.module.js"></script>
+    <script src="/public/app/cgolaGame/cgolaGame.routes.js"></script>
+    <script src="/public/app/cgolaGame/CgolaGame.ctrl.js"></script>
+    <script src="/public/app/cgolaGame/factories/randomBooleanGenerator.js"></script>
+    <script src="/public/app/cgolaGame/factories/game.js"></script>
+    <script src="/public/app/cgolaGame/factories/boardCreator.js"></script>
+    <script src="/public/app/cgolaGame/factories/squareUpdater.js"></script>
+    <script src="/public/app/cgolaGame/factories/boardUpdater.js"></script>
+    <script src="/public/app/cgolaGame/factories/neighbouringSquareRetriever.js"></script>
+
+    <p class="pull-right small muted icon-copyright__text">Philosoraptor Icon by <a href="http://www.rw-designer.com/icon-detail/8797" class="icon-copyright__link">Virum64</a></p>
+  </body>
+</html>
