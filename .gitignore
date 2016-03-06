@@ -21,6 +21,7 @@ Session.vim
 *.seed
 lib-cov
 /coverage
+.coverage/
 build/Release
 node_modules
 npm-debug.log
