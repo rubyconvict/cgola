@@ -3,7 +3,7 @@
 > A game written in AngularJS
 
 [![Build Status](https://img.shields.io/travis/rubyconvict/cgola.svg?style=flat)](https://travis-ci.org/rubyconvict/cgola)
-[![Coverage Status](https://coveralls.io/repos/github/rubyconvict/cgola/badge.svg?branch=master)](https://coveralls.io/github/rubyconvict/cgola?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/rubyconvict/cgola/badge.png?branch=master)](https://coveralls.io/github/rubyconvict/cgola?branch=master)
 [![MIT LICENSE](http://img.shields.io/badge/license-mit-blue.svg?style=flat)](https://raw.githubusercontent.com/rubyconvict/cgola/master/LICENSE.txt)
 
 ## Install
