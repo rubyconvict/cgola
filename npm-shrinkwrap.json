@@ -1,6 +1,6 @@
 {
   "name": "cgola",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "dependencies": {
     "abbrev": {
       "version": "1.0.7",
@@ -993,6 +993,11 @@
           "resolved": "https://registry.npmjs.org/async/-/async-1.5.2.tgz"
         }
       }
+    },
+    "fs-access": {
+      "version": "1.0.0",
+      "from": "fs-access@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/fs-access/-/fs-access-1.0.0.tgz"
     },
     "fs-extra": {
       "version": "0.26.5",
@@ -2101,6 +2106,11 @@
         }
       }
     },
+    "karma-chrome-launcher": {
+      "version": "0.2.2",
+      "from": "karma-chrome-launcher@>=0.2.2 <0.3.0",
+      "resolved": "https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.2.2.tgz"
+    },
     "karma-coverage": {
       "version": "0.5.4",
       "from": "karma-coverage@*",
@@ -2343,6 +2353,11 @@
       "version": "0.1.1",
       "from": "npmlog@>=0.0.0 <1.0.0",
       "resolved": "https://registry.npmjs.org/npmlog/-/npmlog-0.1.1.tgz"
+    },
+    "null-check": {
+      "version": "1.0.0",
+      "from": "null-check@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/null-check/-/null-check-1.0.0.tgz"
     },
     "number-is-nan": {
       "version": "1.0.0",
