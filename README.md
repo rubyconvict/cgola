@@ -26,3 +26,9 @@ npm start
 ```
 npm run test-no-coverage
 ```
+
+## Debug tests
+
+```
+npm run test-continuous
+```
